@@ -1,0 +1,61 @@
+header {
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+}
+
+#menu-esquerda {
+    gap: 20px;
+}
+
+#menu-esquerda p {
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    
+
+}
+
+#menu-esquerda small {
+    color: red;
+    font-size: 15px;
+}
+
+#menu-direita {
+    display: flex;
+    gap: 20px;
+   margin-left: auto;
+    
+}
+
+#destaque {
+    width:100%;
+}
+
+#destaque small{
+color:red;
+font-size:15px;
+}
+
+#destaque h2 {
+    font-size:30px;
+    font-weight:bold;
+
+}
+
+#destaque p {
+    font-size: 15px;
+    color:black;
+}
+
+#destaque {
+    background-color:azure
+}
+
+#foto img {
+  
+    width: 400px;
+   margin-left: auto;
+   
+}
+}
