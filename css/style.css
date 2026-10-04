@@ -18,9 +18,43 @@ body {
 
 }
 
-.galeria {
+#galeria {
  
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+  
+}
+
+.fotos {
+    width: 20%;
+    object-fit: cover;
+    background-color: pink;
+    padding: 10px;
+}
+
+.fotos img {
+    width: 100%;
+    height: 180px;
+    object-fit:cover;
+
+}
+
+ul, ol {
+    line-height: 1.8;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid pink;
+    padding; 10px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(235, 235, 182);
 }
